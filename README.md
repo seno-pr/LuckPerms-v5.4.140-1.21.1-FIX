@@ -1,3 +1,11 @@
+## Patch included
+
+This fork includes a backport for the Fabric shutdown fix related to player disconnect handling during server stop.
+
+Based on upstream LuckPerms 5.4.140 Fabric.
+Fix prevents async disconnect handling from running once the server is already stopped.
+
+
 ![](https://raw.githubusercontent.com/LuckPerms/branding/master/banner/banner.png "Banner")
 # LuckPerms
 [![Build Status](https://ci.lucko.me/job/LuckPerms/badge/icon)](https://ci.lucko.me/job/LuckPerms/)
